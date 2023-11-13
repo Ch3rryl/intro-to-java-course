@@ -21,14 +21,13 @@ public class App {
     }
 
     public static Boolean areEqual(double operand1, double operand2) {
-        System.out.println(operand1.equals(operand2));
+        return operand1 == operand2;
         // return operand1.equals(operand2);
    
     }
 
     public static Boolean isLessThan(double operand1, double operand2) {
         return operand1 > operand2;
-        System.out.println(operand1 > operand2);
    
     }
 
