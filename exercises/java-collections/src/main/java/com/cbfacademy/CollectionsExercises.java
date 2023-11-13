@@ -1,10 +1,36 @@
 package com.cbfacademy;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Stack;
 
 public class CollectionsExercises {
 
     public LinkedList<Integer> useLinkedList() {
+        LinkedList<Integer> list1= new LinkedList<>();
+        list1.add(4);
+        list1.add(5);
+        list1.add(6);
+        list1.add(8);
+        list1.add(2);
+        list1.add(9);
+        list1.add(2);
+        list1.add(2, 4);
+
+        Iterator it = list1.iterator();
+            while (it.hasNext()) {
+                System.out.println(it.next());
+}
+
+        // for (int i = 0; i < list1.size(); i++) {
+        //     System.out.println(list1.get(i));
+        // }
+
+        return list1;
+
+
         // TODO: create an empty linked list
         //  - add 4 as the first element of the list
         //  - then add 5, 6, 8, 2, 9 to the list
@@ -12,8 +38,9 @@ public class CollectionsExercises {
         //  - add 4 as the 3rd element of the list
         //  - invoke the method element() on the list and print the result on the screen
         //  - return the list
-        throw new RuntimeException("Not implemented");
+        
     }
+   
 
     public Stack<Integer> useStack() {
         // TODO: create an empty stack
