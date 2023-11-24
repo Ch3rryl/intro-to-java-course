@@ -14,8 +14,8 @@ public class App {
 
       
 
-        for(Car iterateCarList : carsInShow) {
-            iterateCarList.getDetails();
+        for(Car car: carsInShow) {
+            car.getDetails();
             System.out.println();
         }
 

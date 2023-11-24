@@ -8,9 +8,9 @@ public class Showroom {
     public List<Car> getCars() {
         List<Car> myShowroom = new ArrayList<>(); 
 
-        Car carVolvo = new Car("Volvo", "V40", "blue", 2012); 
-        Car carPorsche = new Car("Porsche", "Panamera", "red", 2009); 
-        Car carAudi = new Car("Audi", "A3", "grey", 2018); 
+        Car carVolvo = new Car("Volvo", "V40", "Blue", 2012); 
+        Car carPorsche = new Car("Porsche", "Panamera", "Red", 2009); 
+        Car carAudi = new Car("Audi", "A3", "Grey", 2018); 
     
 
         myShowroom.add(carVolvo); 
