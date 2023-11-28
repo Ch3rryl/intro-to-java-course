@@ -83,7 +83,8 @@
                     <version>3.11.0</version>
                     <configuration>
                         <testExcludes>
-                            <exclude>**/accounts/*.java</exclude>
+                            <!-- <exclude>**/accounts/CurrentAccount*</exclude> -->
+                            <!-- <exclude>**/accounts/SavingsAccountTest</exclude> -->
                             <exclude>**/shapes/*.java</exclude>
                             <!-- <exclude>**/cars/ShowroomTest.java</exclude> -->
                         </testExcludes>
