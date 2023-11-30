@@ -85,7 +85,8 @@
                         <testExcludes>
                             <!-- <exclude>**/accounts/CurrentAccount*</exclude> -->
                             <!-- <exclude>**/accounts/SavingsAccountTest</exclude> -->
-                            <exclude>**/shapes/*.java</exclude>
+                            <!-- <exclude>**/shapes/*.java</exclude> -->
+                            <exclude>**/shapes/Paint*</exclude>
                             <!-- <exclude>**/cars/ShowroomTest.java</exclude> -->
                         </testExcludes>
                     </configuration>
