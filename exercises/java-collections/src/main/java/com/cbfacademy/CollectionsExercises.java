@@ -2,7 +2,6 @@ package com.cbfacademy;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -21,16 +20,11 @@ public class CollectionsExercises {
         list1.add(9);
         list1.add(2);
 
-        // Index then number to add === add the number 4 at position 3 which = index 2 (0,1, 2)
+        // Index + number to be added
         list1.add(2, 4);
 
-         // invoke built-in element() method on the list and print the result
-         System.out.print("Element at the head of the list: " + list1.element());
-
-        Iterator <Integer> it = list1.iterator();
-            while (it.hasNext()) {
-                System.out.println(it.next());
-}
+        //  // invoke built-in element() method on the list and print the result
+         System.out.print(list1.element());
 
         return list1;
 
@@ -129,7 +123,7 @@ public class CollectionsExercises {
 
 
         //  - add {5, JavaScript} entry to the map
-        myHashie.put(5, "Javascript");
+        myHashie.put(5, "JavaScript");
 
         //  - add {6, Rust} entry to the map
         myHashie.put(6, "Rust"); 
