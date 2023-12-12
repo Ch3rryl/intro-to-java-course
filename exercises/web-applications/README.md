@@ -25,11 +25,11 @@ Analyse the following HTTP request:
     Connection: keep-alive
 ```
 
-1. What is the requested URL?
-2. Which version of HTTP is used?
-3. Does the browser ask for a persistent or a non-persistent connection?
+1. What is the requested URL? - /martignon/index.html
+2. Which version of HTTP is used? - HTTP/1.1
+3. Does the browser ask for a persistent or a non-persistent connection? - persistent = "kepp-alive"
 4. What is, in your opinion, the utility in indicating the type (and version) of browser used by
-the client in the HTTP Request?
+the client in the HTTP Request? - data analytics and can customise response server-side
 
 **<ins>Exercise 2</ins>**
 
@@ -43,6 +43,8 @@ An HTTP client sends the following message:
 ```
 
 Write down two feasible responses of the HTTP server (only the status line)
+ok 200 or
+The server returns a 304 Not Modified status code, indicating that the requested resource has not been modified since the date specified in the "If-modified-since" header. In this case, the server doesn't send the content again but suggests that the client use its cached version.
 
 ## :spider_web: HTML
 
