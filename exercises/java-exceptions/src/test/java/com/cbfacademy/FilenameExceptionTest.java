@@ -11,7 +11,7 @@ public class FilenameExceptionTest {
     @Test
     @DisplayName(value = "Test FilenameException is a checked exception")
     void verifyFilenameExceptionIsCheckedException() {
-        assertTrue(Exception.class.isAssignableFrom(FilenameException.class));
-        assertFalse(RuntimeException.class.isAssignableFrom(FilenameException.class));
+        assertTrue(Exception.class.isAssignableFrom(FileExtension.class));
+        assertFalse(RuntimeException.class.isAssignableFrom(FileExtension.class));
     }
 }

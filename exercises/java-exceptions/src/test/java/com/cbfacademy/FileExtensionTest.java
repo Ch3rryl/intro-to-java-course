@@ -37,7 +37,7 @@ public class FileExtensionTest {
             "java, false",
             ".java, true"
     })
-    void testCheckMethodReturnsExpectedResult(String fileName, boolean expectedResult) throws FilenameException {
+    void testCheckMethodReturnsExpectedResult(String fileName, boolean expectedResult) throws FileExtension {
         boolean result = fileExtension.check(fileName);
 
         assertEquals(expectedResult, result);
@@ -46,8 +46,8 @@ public class FileExtensionTest {
     @Test
     @DisplayName(value = "test the check method throws a FilenameException when the filename is null or an empty string")
     void testCheckMethodThrowsFilenameExceptionForNullOrEmpty() {
-        assertThrows(FilenameException.class, () -> fileExtension.check(null));
-        assertThrows(FilenameException.class, () -> fileExtension.check(""));
+        assertThrows(FileExtension.class, () -> fileExtension.check(null));
+        assertThrows(FileExtension.class, () -> fileExtension.check(""));
     }
 
     @Test
