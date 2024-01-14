@@ -22,6 +22,5 @@ public class FizzbuzzTest {
         final String actualResult = ("1");
         assertEquals(actualResult, "1");
     }
-
-
+    
 }
